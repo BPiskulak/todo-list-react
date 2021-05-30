@@ -30,7 +30,7 @@
     padding: 10px;
     margin: 3px;
     cursor: pointer;
-    transition: 1s;
+    transition: 1s linear;
 }
 
 @media (max-width: 768px) {
