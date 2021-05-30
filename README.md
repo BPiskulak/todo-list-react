@@ -10,7 +10,7 @@ This is a simple to-do list page prepared as part of learning programming.
 * [Contact](#contact)
 
 ## Demo
-https://bpiskulak.github.io/todo-list-react/?
+https://bpiskulak.github.io/todo-list-react/
 
 ## General info
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
