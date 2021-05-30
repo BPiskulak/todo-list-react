@@ -1,0 +1,32 @@
+.section__buttons {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+  gap: 20px;
+}
+
+@media (max-width: 767px) {
+  .section__buttons {
+    grid-template-columns: 1fr;
+  }
+}
+
+.section__button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  color: rgb(2, 100, 100);
+}
+
+.section__button:hover {
+  color: rgb(0, 165, 165);
+  transition: 0.3s;
+}
+
+.section__buttons--hidden {
+  display: none;
+}
+
+.section__button:disabled {
+  color: rgb(187, 187, 187);
+}
